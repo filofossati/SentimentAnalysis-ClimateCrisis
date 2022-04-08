@@ -1,4 +1,4 @@
-# A Sentiment Analysis on Environmentalism 
+# A Sentiment Analysis On The Climate Crisis 
 
 
 ## Problem Statement 
@@ -7,8 +7,8 @@ Extreme weather events such as wildfires and hurricanes have been already intens
 
 It is interesting to notice how the perception of this climate crisis has changed in the majority of the world population in the recent years. In fact, recent studies suggest that the younger generation has been developing a climate anxiety about their future. For instance, on September 2021, [Nature](https://www.nature.com/articles/d41586-021-02582-8) published a survey of 10,000 young people showing that "negative feelings about climate change can cause psycological distress". 27% and 32 % of interviewees were respectively extremely worried and very worried about climate change. Only 5% were not worried. The most common words utilized in the same survey were said, afraid, anxious, angry, powerless, guilty, optimistic and indifferent.
 
-An American non-profit organization wanted to have  a better picture of the general sentiment that people have when talking about environmental-related topics. More specifically, they wanted to understand whether by talking about climate change in more broaden context such as sustainability, the overall sentiment could become more propositional and less catastrophic. 
-Serving as a data scientist in this organization, I decided to apply a Sentiment Analysis - an area of natural language processing that classifies text as having either positive or negative emotion - over two different subreddits: sustainability and climatechange. Because the sustainability subreddit is more focus on the solution side of the environmental crisis, the hypothesis is that its overall sentiment score should be more positive than the one for climate change; and I am expecting that this difference should improve model's predictions.
+I wanted to have  a better picture of the general sentiment that people have when talking about environmental-related topics. More specifically, I wanted to understand whether by talking about climate change in more broaden context such as sustainability, the overall sentiment could become more propositional and less catastrophic. 
+For this analysis, I decided to apply a Sentiment Analysis - an area of natural language processing that classifies text as having either positive or negative emotion - over two different subreddits: sustainability and climatechange. Because the sustainability subreddit is more focus on the solution side of the environmental crisis, the hypothesis is that its overall sentiment score should be more positive than the one for climate change; and I am expecting that this difference should improve model's predictions.
 
 
 ### Data Dictionary
@@ -33,7 +33,7 @@ To answer to the problem statement I needed to find first two separate online gr
 
 ## Conclusions
 
-The non-profit organization was interested to understand whether by talking about climate change in a more broaden context such as sustainability, the overall sentiment that people have when talking about environmental-related topics could become more propositional and less catastrophic.  
+I was interested to understand whether by talking about climate change in a more broaden context such as sustainability, the overall sentiment that people have when talking about environmental-related topics could become more propositional and less catastrophic.  
 
 As shown in Part 2 of this project, the sustainability group tends to present a more positive distribution of its sentiment scores with a median value of 0.25 against 0.00 for climate change. Moreover, in part 3, we have seen how the word **anxiety** is within the 10 best  predictors for the class climate change. This seems to confirm the original hypothesis where I was expecting to detect a more positive sentiment in the sustainability group as people tend to be  more focus on the solution side of the environemntal crisis. 
 
